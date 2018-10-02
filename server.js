@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/nickname', (request, response) => {
-    response.send('FamousReindeer');
+    response.send('famous-reindeer');
 });
 
 app.listen(process.env.PORT || 4000);
